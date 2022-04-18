@@ -1,0 +1,25 @@
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\bin\Debug\Criador de Urnas.exe.config
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\bin\Debug\Criador de Urnas.exe
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\bin\Debug\Criador de Urnas.pdb
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador de Urnas.csprojResolveAssemblyReference.cache
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormInicio.resources
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.Properties.Resources.resources
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador de Urnas.csproj.GenerateResource.Cache
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador de Urnas.exe
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador de Urnas.pdb
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormSobre.resources
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormSetUrnaName.resources
+c:\users\juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormLobbyUrna.resources
+C:\Users\Juninho\OneDrive\Documentos\Visual Studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormRename.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormRenameSection.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormEditSecao.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormEditCandidatos.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormEditCandidato.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormVotar.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormListaCand.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormEnd.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormResults.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormTest1.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormTest2.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormTest3.resources
+C:\Users\Juninho\onedrive\documentos\visual studio 2012\Projects\Criador de Urnas\Criador de Urnas\obj\Debug\Criador_de_Urnas.FormTest4.resources

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CB58C80-D816-41A6-BEAE-276E13583B6D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Criador_de_Urnas</RootNamespace>
+    <AssemblyName>Criador de Urnas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Candidato.cs" />
+    <Compile Include="FormEditCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditCandidato.Designer.cs">
+      <DependentUpon>FormEditCandidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditCandidatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditCandidatos.Designer.cs">
+      <DependentUpon>FormEditCandidatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditSecao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditSecao.Designer.cs">
+      <DependentUpon>FormEditSecao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnd.Designer.cs">
+      <DependentUpon>FormEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicio.Designer.cs">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaCand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListaCand.Designer.cs">
+      <DependentUpon>FormListaCand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLobbyUrna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLobbyUrna.Designer.cs">
+      <DependentUpon>FormLobbyUrna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRename.Designer.cs">
+      <DependentUpon>FormRename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRenameSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRenameSection.Designer.cs">
+      <DependentUpon>FormRenameSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResults.Designer.cs">
+      <DependentUpon>FormResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetUrnaName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetUrnaName.Designer.cs">
+      <DependentUpon>FormSetUrnaName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSobre.Designer.cs">
+      <DependentUpon>FormSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest1.Designer.cs">
+      <DependentUpon>FormTest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest2.Designer.cs">
+      <DependentUpon>FormTest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest3.Designer.cs">
+      <DependentUpon>FormTest3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest4.Designer.cs">
+      <DependentUpon>FormTest4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVotar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVotar.Designer.cs">
+      <DependentUpon>FormVotar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secao.cs" />
+    <Compile Include="Serialization.cs" />
+    <EmbeddedResource Include="FormEditCandidato.resx">
+      <DependentUpon>FormEditCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditCandidatos.resx">
+      <DependentUpon>FormEditCandidatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditSecao.resx">
+      <DependentUpon>FormEditSecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnd.resx">
+      <DependentUpon>FormEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListaCand.resx">
+      <DependentUpon>FormListaCand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLobbyUrna.resx">
+      <DependentUpon>FormLobbyUrna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRename.resx">
+      <DependentUpon>FormRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRenameSection.resx">
+      <DependentUpon>FormRenameSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResults.resx">
+      <DependentUpon>FormResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetUrnaName.resx">
+      <DependentUpon>FormSetUrnaName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSobre.resx">
+      <DependentUpon>FormSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTest1.resx">
+      <DependentUpon>FormTest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTest2.resx">
+      <DependentUpon>FormTest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTest3.resx">
+      <DependentUpon>FormTest3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTest4.resx">
+      <DependentUpon>FormTest4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVotar.resx">
+      <DependentUpon>FormVotar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Som.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gear.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40031.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
